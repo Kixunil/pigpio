@@ -1,0 +1,15 @@
+[package]
+name = "pigpio"
+version = "0.1.0"
+authors = ["Martin Habovstiak <martin.habovstiak@gmail.com>"]
+description = "Safe bindings to pigpio library."
+homepage = "https://github.com/Kixunil/pigpio"
+repository = "https://github.com/Kixunil/pigpio"
+readme = "README.md"
+keywords = ["pigpio", "embedded", "ffi"]
+categories = ["api-bindings", "embedded", "hardware-support"]
+license = "MITNFA"
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+pigpio-sys = "0.1"
